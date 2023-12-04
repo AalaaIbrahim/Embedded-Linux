@@ -1,4 +1,4 @@
-# Linux Admin 1 - Task 1
+# Linux Admin 1 - Exam 1
 ## Requirements
 Given config.ini file, you are tasked to creat a bash script that parses a configuration file to search for given keys.
 
