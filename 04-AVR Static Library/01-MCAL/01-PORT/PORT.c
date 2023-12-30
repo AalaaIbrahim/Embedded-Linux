@@ -739,9 +739,9 @@ void PORT_voidInit(void)
 	u8 Loc_u8PortIterator = ZERO;
 	u8 Loc_u8PinIterator = ZERO;
 
-	for (; Loc_u8PortIterator < NUMBER_OF_PORTS; Loc_u8PortIterator++)
+	for (Loc_u8PortIterator; Loc_u8PortIterator < NUMBER_OF_PORTS; Loc_u8PortIterator++)
 	{
-		for (; Loc_u8PinIterator < PINS_PER_PORT; Loc_u8PinIterator++)
+		for (Loc_u8PinIterator = ZERO; Loc_u8PinIterator < PINS_PER_PORT; Loc_u8PinIterator++)
 		{
 			/* Get the direction bit from the pin configuration */
 			if (GET_BIT(PORT_u8PinConfigArr[Loc_u8PortIterator][Loc_u8PinIterator], DIR_BIT))
