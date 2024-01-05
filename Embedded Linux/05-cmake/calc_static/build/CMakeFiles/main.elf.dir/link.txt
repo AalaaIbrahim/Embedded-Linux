@@ -1,0 +1,1 @@
+/usr/bin/cc -rdynamic CMakeFiles/main.elf.dir/main.c.o -o main.elf  liboperation.a 

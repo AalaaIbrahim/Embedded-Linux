@@ -1,0 +1,4 @@
+/home/alaa/cmake/calc_static/build/CMakeFiles/main.elf.dir
+/home/alaa/cmake/calc_static/build/CMakeFiles/operation.dir
+/home/alaa/cmake/calc_static/build/CMakeFiles/edit_cache.dir
+/home/alaa/cmake/calc_static/build/CMakeFiles/rebuild_cache.dir
